@@ -94,5 +94,28 @@
       loadMainDartJs();
     }
   </script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyBYZxjUOh4rTsL-ZjiBXKGttVVYDlUL2mg",
+      authDomain: "tradie-hq-1997a.firebaseapp.com",
+      projectId: "tradie-hq-1997a",
+      storageBucket: "tradie-hq-1997a.appspot.com",
+      messagingSenderId: "960323891418",
+      appId: "1:960323891418:web:afc329beabcd2e527d35e3",
+      measurementId: "G-1YYCMFWXQW"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
 </body>
 </html>
